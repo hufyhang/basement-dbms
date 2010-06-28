@@ -15,25 +15,3 @@
    License along with the Basement DBMS; if not, write to the Free
    Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
    02111-1307 USA.  */
-
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-package basement;
-
-/**
- *
- * @author HANG Feifei
- */
-public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        UI.WelcomeScreen main = new UI.WelcomeScreen();
-        Ctrl.ShowDialog.ShowDialog( main );
-    }
-}
