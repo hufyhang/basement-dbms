@@ -47,7 +47,11 @@ public class Tables_Home_Panel extends UI.Panel.Panel_Template {
 
     public Tables_Home_Panel( String database ) {
         this();
-        this.getTables( database );
+        try {
+            this.getTables( database );
+        } catch ( NullPointerException excpt ) {
+            // handle exception.
+        }
     }
 
     /** This method is called from within the constructor to
