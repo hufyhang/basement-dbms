@@ -1,0 +1,1 @@
+Basement is a lightweight and open-source database management system. With helps of Basement, users would be able to create, organize, and manage their databases much more easier. By contrast with other DBMSs, Basement is strictly designed for data storage.
